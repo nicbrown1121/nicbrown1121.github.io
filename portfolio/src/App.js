@@ -17,7 +17,7 @@ const Home = () => {
         <title>Nicole Brown Portfolio</title>
         <meta name="description"></meta>
       </div>
-      <main className="bg-gray-200">
+      <main className="bg-gray-100">
         {/* NAME AND RESUME SECTION */}
         <section className="min-h-100">
           <nav className="py-5 mb-12">
@@ -43,7 +43,7 @@ const Home = () => {
           </div>
         </section>
         {/* PROJECT SECTION */}
-        <h3 className="text-3xl text-center py-20 inset-x-0 bottom-0 h-16 text-teal-700">
+        <h3 className="text-3xl text-center py-20 \ inset-x-0 bottom-0 h-16 text-teal-700">
           Projects
         </h3>
         <div className="justify-center lg:flex gap-10 center md:flex ">
