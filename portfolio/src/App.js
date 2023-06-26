@@ -5,12 +5,6 @@ import { RiMentalHealthFill } from "react-icons/ri";
 import Card from "./Card";
 
 const Home = () => {
-  const [isFlipped, setFlipped] = useState(false);
-
-  const handleFlip = () => {
-    setFlipped(!isFlipped);
-  };
-
   return (
     <div>
       <div>
