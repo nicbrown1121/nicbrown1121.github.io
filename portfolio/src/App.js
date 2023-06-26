@@ -14,36 +14,29 @@ const Home = () => {
   return (
     <div>
       <div>
-        <title>Nicole Brown Portfolio</title>
+        <title className="title">Nicole Brown Portfolio</title>
         <meta name="description"></meta>
       </div>
-      <main className="bg-gray-100">
-        {/* NAME AND RESUME SECTION */}
+      <main className="bg-gray-100 h-screen">
         <section className="min-h-100">
-          <nav className="py-5 mb-12">
-            <h1 className="text-xl font-serif">{/* Developed by Nicole */}</h1>
-          </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium font-serif">
               Nicole Brown
             </h2>
-            <h3 className="text-2xl py-2">Front End Software Engineer</h3>
+            <h3 className="text-2xl">Software Engineer</h3>
           </div>
-          <div className="text-3xl flex justify-center  text-gray-600">
-            <AiFillLinkedin />
-            <li>
-              {/* LINK TO RESUME */}
-              <a
-                className=" bg-gradient-to-r from-teal-400 to-teal-800 text-white  px-4 py-2 rounded-md"
-                href=""
-              >
-                Resume
-              </a>
-            </li>
+          <div className="text-3xl flex justify-center py-0 text-gray-600">
+            <a
+              href="https://www.linkedin.com/in/nicolebrownnutrition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillLinkedin />
+            </a>
           </div>
         </section>
         {/* PROJECT SECTION */}
-        <h3 className="text-3xl text-center py-20 \ inset-x-0 bottom-0 h-16 text-teal-700">
+        <h3 className="text-3xl text-center py-20 \ inset-x-0 bottom-0 h-16 font-serif text-teal-700">
           Projects
         </h3>
         <div className="justify-center lg:flex gap-10 center md:flex ">
