@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import { IoNewspaperSharp } from "react-icons/io5";
+import React from "react";
 import { AiFillLinkedin } from "react-icons/ai";
-import { RiMentalHealthFill } from "react-icons/ri";
 import Card from "./Card";
 
 const Home = () => {
