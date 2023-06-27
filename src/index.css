@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  /* position: relative; */
+  perspective: 1000px;
+  width: 400px;
+  /* height: 200px;  */
+  cursor: pointer;
+}
+/* .data {
+  overflow-y: auto;
+  position: absolute;
+  bottom: 5%;
+  background: #fff;
+  text-align: center;
+  width: 275px;
+  height: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 10px 5%;
+  /* margin: 0 !important;
+  padding: 0 !important; 
+  box-sizing: border-box;
+  opacity: 0.8;
+  transition: all 0.4s;
+} */
+
+/* .PINCard,
+.healthCard {
+  position: relative;
+}
+
+.data {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: inherit;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.PINCard:hover .data {
+  opacity: 1;
+}
+
+.healthCard:hover .data {
+  opacity: 1;
+} */
+/* .flip-card-inner {
+  /* position: relative;
+  width: 100%;
+  height: 100%; 
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+  position: absolute; 
+  width: 400px;
+  height: 250px;
+}
+
+.flip-card-back {
+  color: white; 
+  transform: rotateY(180deg);
+  position: absolute;
+  width: 400px;
+  height: 250px;
+} */
+
+.expanded {
+  height: 450px;
+  background-color: #e6fffa;
+  box-shadow: none;
+  border-radius: 20px;
+}
+
+.text-md {
+  margin-bottom: 1rem; /* Add margin bottom to create space between paragraphs */
+}
