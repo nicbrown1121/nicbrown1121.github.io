@@ -32,7 +32,10 @@ const Card = () => {
           <div>
             <h3 className="text-3xl py-4">Project Innovate Newark</h3>
             <div className="relative">
-              <div className="grid place-items-center">
+              <div
+                className="grid place-items-center"
+                style={{ cursor: "pointer" }}
+              >
                 {showPIN ? (
                   <IoIosArrowUp
                     className="grid place-items-center"
@@ -72,18 +75,6 @@ const Card = () => {
           </div>
         </section>
       </div>
-
-      {/* <div className="flip-card-back">
-            <div className="text-md py-4 leading-8 text-gray-800">
-              <p>
-                Project Innovate Newark is an organization that works to create
-                after school programs for high school students in the Newark
-                area. These programs center around business education and
-                computer science.
-              </p>
-            </div>
-          </div> */}
-
       <div className={`healthCard ${showHealthCard ? "expanded" : ""}`}>
         <section
           className={`text-center p-8 rounded-xl w-96 h-56 my-10 ${
@@ -97,9 +88,12 @@ const Card = () => {
               <RiMentalHealthFill className="grid place-items-center" />
             </div>
           </div>
-          <div className="grid place-items-center">
-            <h3 className="text-3xl py-3"> Patient Portal App</h3>
-            <div className="grid place-items-center">
+          <h3 className="text-3xl py-3"> Patient Portal App</h3>
+          <div className="relative">
+            <div
+              className="grid place-items-center"
+              style={{ cursor: "pointer" }}
+            >
               {showHealthCard ? (
                 <IoIosArrowUp
                   className="grid place-items-center"
