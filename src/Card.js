@@ -20,13 +20,13 @@ const Card = () => {
     <>
       <div className={`PINCard ${showPIN ? "expanded" : ""}`}>
         <section
-          className={`text-center p-8 rounded-xl my-10 ${
+          className={`text-center p-8 rounded-xl w-96 h-56 my-10 mx-auto ${
             showPIN
               ? ""
               : "shadow-2xl hover:border-transparent hover:bg-teal-100"
           }`}
         >
-          <div className="justify-center lg:flex gap-10 center md:flex grid place-items-center">
+          <div className="justify-center text-center lg:flex gap-10 center md:flex grid place-items-center">
             <img alt="" src="/pin_logo.png" width={200} height={100} />
           </div>
           <div>
@@ -49,7 +49,7 @@ const Card = () => {
                 )}
               </div>
               {showPIN && (
-                <div className="data h-80 absolute bottom-5% text-center w-275 left-0 right-0 mx-auto px-5% box-border transition-opacity duration-400">
+                <div className="data h-80 absolute bottom-5% text-center w-275 left-0 right-0 mx-auto px-5% box-border">
                   <p className="font-bold">Technologies:</p>
                   <div className="grid grid-cols-2 gap-4 text-md py-4 leading-8 text-gray-800">
                     <div>
@@ -77,10 +77,10 @@ const Card = () => {
       </div>
       <div className={`healthCard ${showHealthCard ? "expanded" : ""}`}>
         <section
-          className={`text-center p-8 rounded-xl w-96 h-56 my-10 ${
+          className={`text-center p-8 rounded-xl w-96 h-56 my-10 mx-auto ${
             showHealthCard
               ? ""
-              : "shadow-2xl hover:border-transparent hover:bg-teal-100 w-96 h-56"
+              : "shadow-2xl hover:border-transparent hover:bg-teal-100"
           }`}
         >
           <div className="justify-center lg:flex gap-10 center md:flex grid place-items-center">
@@ -109,7 +109,7 @@ const Card = () => {
             <div>
               {showHealthCard && (
                 <div className="relative">
-                  <div className="data text-center left-0 right-0 duration-400">
+                  <div className="data text-center left-0 right-0">
                     <div className="text-md py-4 leading-8 text-gray-800 text-center place-items-center">
                       <p className="font-bold">Technologies:</p>
                       <p>React</p>
