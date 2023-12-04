@@ -29,7 +29,7 @@ const Home = () => {
           <div className="text-center pt-10">
             <h2
               ref={h2Ref}
-              className="title text-5xl py-2 text-teal-600 font-medium font-serif"
+              className="title text-6xl py-2 bg-clip-text text-transparent bg-gradient-to-r from-cyan-800 to-cyan-200 font-serif"
             >
               Nicole Garofalo
             </h2>
@@ -38,23 +38,25 @@ const Home = () => {
                 href="https://www.linkedin.com/in/nicolemgarofalo/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-3xl pt-4 text-gray-600"
+                className="text-3xl pt-4 text-gray-600 hover:text-cyan-700 hover:scale-125 duration-200"
               >
                 <AiFillLinkedin />
               </a>
-              <h3 className="text-2xl pt-4 pl-2">Software Engineer</h3>
+              <h3 className="text-2xl pt-4 pl-2 font-serif">
+                Software Engineer
+              </h3>
             </div>
           </div>
         </section>
         {/* PROJECT SECTION */}
         <div>
-          <h3 className="text-3xl text-center py-20 \ inset-x-0 bottom-0 h-16 font-serif text-teal-700">
+          <h3 className="text-4xl text-center py-20 inset-x-0 bottom-0 h-16 font-serif text-cyan-700">
             Experience
           </h3>
         </div>
         <div
           ref={cardRef}
-          className="justify-center lg:flex gap-10 center md:flex "
+          className="justify-center lg:flex gap-12 p-4 center md:flex "
         >
           <Card />
         </div>
