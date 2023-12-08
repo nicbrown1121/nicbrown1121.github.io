@@ -27,7 +27,7 @@ const Card = () => {
                 <p>Cassandra</p>
               </div>
             </div>
-            <div className="grid place-items-center">
+            <div className="grid place-items-center cursor-pointer">
               <a href="https://www.projectinnovatenewark.org">Visit Website</a>
               <HiCursorClick className="place-content-end" />
             </div>
@@ -50,7 +50,7 @@ const Card = () => {
             <p>Express</p>
             <p>NextJS</p>
           </div>
-          <div className="grid place-items-center">
+          <div className="grid place-items-center cursor-pointer">
             <a href="https://github.com/nicbrown1121/patient_portal">
               Visit GitHub
             </a>
