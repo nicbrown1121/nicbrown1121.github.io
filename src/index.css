@@ -16,89 +16,66 @@ code {
     monospace;
 }
 
+@keyframes expandHeight {
+  from {
+    height: 0;
+  }
+  to {
+    height: 200px;
+  }
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(rgb(6, 112, 112), rgb(11, 193, 222));
+}
+
+.link-underline:hover {
+  background-size: 100% 2px;
+  background-position: 0 100%;
+}
+
+/* @keyframes underlineIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes underlineOut {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+} */
+
+/* .expand {
+  animation: expandHeight 300ms ease-out;
+}
+
+.collapse {
+  animation: expandHeight 300ms ease-in reverse;
+} */
+/* 
 .card {
-  /* position: relative; */
   perspective: 1000px;
   width: 400px;
-  /* height: 200px;  */
   cursor: pointer;
 }
-/* .data {
-  overflow-y: auto;
-  position: absolute;
-  bottom: 5%;
-  background: #fff;
-  text-align: center;
-  width: 275px;
-  height: 80px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  padding: 10px 5%;
-  /* margin: 0 !important;
-  padding: 0 !important; 
-  box-sizing: border-box;
-  opacity: 0.8;
-  transition: all 0.4s;
-} */
-
-/* .PINCard,
-.healthCard {
-  position: relative;
-}
-
-.data {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  background-color: inherit;
-  opacity: 0;
-  transition: all 0.4s;
-}
-
-.PINCard:hover .data {
-  opacity: 1;
-}
-
-.healthCard:hover .data {
-  opacity: 1;
-} */
-/* .flip-card-inner {
-  /* position: relative;
-  width: 100%;
-  height: 100%; 
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.card.flipped .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  color: black;
-  position: absolute; 
-  width: 400px;
-  height: 250px;
-}
-
-.flip-card-back {
-  color: white; 
-  transform: rotateY(180deg);
-  position: absolute;
-  width: 400px;
-  height: 250px;
-} */
 
 .expanded {
   height: 450px;
@@ -108,5 +85,5 @@ code {
 }
 
 .text-md {
-  margin-bottom: 1rem; /* Add margin bottom to create space between paragraphs */
-}
+  margin-bottom: 1rem;
+} */

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import Card from "./Card";
+import About from "./About";
 import { gsap } from "gsap";
 
 const Home = () => {
@@ -12,13 +13,11 @@ const Home = () => {
       duration: 2,
       y: -40,
       opacity: 1,
-      // ease: "power4.out",
     });
     gsap.to(h2Ref.current, {
       duration: 2,
       y: 20,
       opacity: 1,
-      // ease: "power4.out",
     });
   }, []);
 
@@ -48,6 +47,9 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <div>
+          <About />
+        </div>
         {/* PROJECT SECTION */}
         <div>
           <h3 className="text-4xl text-center py-20 inset-x-0 bottom-0 h-16 font-serif text-cyan-700">
