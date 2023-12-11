@@ -1,20 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@keyframes expandCard {
-  from {
-    height: 40px; /* Initial height of the card */
-  }
-  to {
-    height: 96px; /* Desired expanded height of the card */
-  }
-}
-
-.PINCard.expanded .card-section {
-  animation: expandCard 0.3s ease-in-out forwards;
-}
-
-.healthCard.expanded .card-section {
-  animation: expandCard 0.3s ease-in-out forwards;
-}
