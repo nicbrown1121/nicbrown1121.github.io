@@ -58,7 +58,7 @@ const Home = () => {
         </div>
         <div
           ref={cardRef}
-          className="justify-center lg:flex gap-12 p-4 center md:flex "
+          className="justify-center lg:flex gap-12 p-4 center md:flex"
         >
           <Card />
         </div>
