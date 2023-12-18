@@ -23,7 +23,7 @@ const About = () => {
       className="flex flex-col items-center justify-center mt-4 text-center"
     >
       {isVisible ? (
-        <div className="flex flex-col items-center transition-opacity shadow-2xl p-3 rounded-xl md:w-1/2 lg:w-1/3 overflow-scroll h-64 bg-white bg-opacity-50">
+        <div className="flex flex-col items-center transition-opacity shadow-2xl p-4 rounded-xl md:w-1/2 lg:w-1/3 overflow-scroll h-64 bg-white bg-opacity-50">
           <p>
             Hi, I'm Nicole – a healthcare professional turned passionate
             software engineer. With a background in healthcare, I bring a unique
@@ -53,7 +53,7 @@ const About = () => {
           </p>
           <br></br>
           <div
-            className="mt-auto mb-4 cursor-pointer hover:text-red-300"
+            className="mt-auto mb-4 cursor-pointer hover:text-red-400 text-xl"
             onClick={handleClose}
           >
             <IoMdCloseCircle />
@@ -64,7 +64,7 @@ const About = () => {
           className="group transition-all duration-300 ease-in-out"
           onClick={handleShow}
         >
-          <span className="font-serif text-xl cursor-pointer hover:bg-inherit bg-white bg-opacity-50 shadow-lg p-2 rounded-2xl hover:shadow-none bg-left-bottom bg-gradient-to-r  from-cyan-800 to-cyan-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+          <span className="font-serif text-xl cursor-pointer hover:bg-inherit bg-white bg-opacity-50 shadow-lg p-3 rounded-2xl hover:shadow-none bg-left-bottom bg-gradient-to-r  from-cyan-800 to-cyan-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
             About Me
           </span>
         </div>
