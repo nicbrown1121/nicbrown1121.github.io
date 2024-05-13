@@ -44,18 +44,17 @@ const About = () => {
             </strong>
             . I also have experience working with and designing the database
             schemas of
-            <strong> SQL </strong>and <strong> NoSQL databases </strong>
+            <strong> SQL </strong>and <strong> NoSQL databases</strong>.
           </p>
           <br></br>
           <p>
             My goal is to continue to work in environments that challenge me to
             grow. I am always eager to learn new technologies and methodologies
-            that will allow me to contribute more effectively to projects that
-            have a real impact
+            to more effectively contribute to meaningful projects.
           </p>
           <br></br>
           <div
-            className="mt-auto mb-4 cursor-pointer hover:text-red-400 text-xl"
+            className="mt-auto mb-4 cursor-pointer hover:text-red-400 text-2xl"
             onClick={handleClose}
           >
             <IoMdCloseCircle />
