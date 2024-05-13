@@ -25,31 +25,33 @@ const About = () => {
       {isVisible ? (
         <div className="flex flex-col items-center transition-opacity shadow-2xl p-4 rounded-xl md:w-1/2 lg:w-1/3 overflow-scroll h-64 bg-white bg-opacity-50">
           <p>
-            Hi, I'm Nicole – a healthcare professional turned passionate
-            software engineer. With a background in healthcare, I bring a unique
-            perspective to the world of technology.
+            Hi, I'm Nicole – a healthcare professional turned software engineer.
+            My transition from healthcare to technology is fueled by a passion
+            for innovation and a commitment to making meaningful impacts through
+            software solutions.
           </p>
           <br></br>
           <p>
-            I have experience in{" "}
+            As a{" "}
             <strong className="underline decoration-sky-500">
-              full-stack web development
-            </strong>{" "}
-            with a focus on{" "}
+              full-stack software engineer
+            </strong>
+            , I specialize in designing user-friendly frontends and robust
+            backend systems. My technical toolkit is extensive, including
+            advanced skills in{" "}
             <strong className="underline decoration-pink-500">
-              front-end technologies
-            </strong>{" "}
-            and passion for design. My professional journey has allowed me to
-            work collaboratively with diverse teams to design and create
-            user-friendly applications, all the way from conceptualization to
-            deployment!
+              JavaScript, TypeScript, React, Next.js, and Nest.js
+            </strong>
+            . I also have experience working with and designing the database
+            schemas of
+            <strong> SQL </strong>and <strong> NoSQL databases </strong>
           </p>
           <br></br>
           <p>
-            My journey in software engineering is fueled by a love for learning
-            and a commitment to continuous improvement. Each project is an
-            opportunity to explore new technologies, refine my skills, and
-            contribute to innovative solutions.
+            My goal is to continue to work in environments that challenge me to
+            grow. I am always eager to learn new technologies and methodologies
+            that will allow me to contribute more effectively to projects that
+            have a real impact
           </p>
           <br></br>
           <div
@@ -64,7 +66,7 @@ const About = () => {
           className="group transition-all duration-300 ease-in-out"
           onClick={handleShow}
         >
-          <span className="font-serif text-xl cursor-pointer hover:bg-inherit bg-white bg-opacity-50 shadow-lg p-3 rounded-2xl hover:shadow-none bg-left-bottom bg-gradient-to-r  from-cyan-800 to-cyan-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+          <span className="font-serif text-xl px-4 cursor-pointer hover:bg-inherit bg-cyan-700 text-white shadow-lg p-3 rounded-2xl hover:shadow-none bg-left-bottom bg-gradient-to-r  from-cyan-800 to-cyan-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out hover:text-black">
             About Me
           </span>
         </div>

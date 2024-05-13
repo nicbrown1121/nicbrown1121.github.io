@@ -19,7 +19,7 @@ const Home = () => {
           </div>
           <div className="text-3xl flex justify-center py-0 text-gray-600">
             <a
-              href="https://www.linkedin.com/in/nicolebrownnutrition"
+              href="https://www.linkedin.com/in/nicolemgarofalo"
               target="_blank"
               rel="noopener noreferrer"
             >
